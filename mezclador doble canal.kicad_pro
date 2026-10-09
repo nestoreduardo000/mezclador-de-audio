@@ -488,7 +488,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "pro.kicad_pro",
+    "filename": "mezclador doble canal.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -611,26 +611,14 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Descripción",
-          "name": "Description",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "",
+      "name": "Default Editing",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Referencia"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -668,17 +656,17 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "pro.kicad_sch",
+        "filename": "mezclador doble canal.kicad_sch",
         "name": "Raíz",
-        "uuid": "ace80ced-7234-4fdd-90d5-a88ef4d677df"
+        "uuid": "1fd6db7d-bb33-43be-9c70-fde303eb7f84"
       }
     ],
-    "used_designators": "U1-3,R1",
+    "used_designators": "U1,#PWR1-6,J1-3,R1-6,C1-5,RV1-2,MK1,JP1,NT1-2",
     "variants": []
   },
   "sheets": [
     [
-      "ace80ced-7234-4fdd-90d5-a88ef4d677df",
+      "1fd6db7d-bb33-43be-9c70-fde303eb7f84",
       "Raíz"
     ]
   ],
