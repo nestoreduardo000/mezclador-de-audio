@@ -2719,6 +2719,92 @@
 			)
 		)
 	)
+	(footprint "personal:Jumper_Wire_10mm"
+		(layer "F.Cu")
+		(uuid "763ee482-bf2c-4e22-a991-bf4b35e3690a")
+		(at 69.5 92)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "5bd3d4e4-8633-47d0-8b99-24bd082f23ea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Jumper_Wire_10mm"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "a251e8c9-e6a4-41a9-ab6d-9240a50a2807")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9541b535-06c2-4959-b4a2-3d077285d7fb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "706046c2-27b0-415d-9019-e03ae7dab17e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "59a3d1c7-2567-4be4-b2fc-1029ec0f6da6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at -5 0)
+			(size 3 3)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "1ab19fdc-44ff-497d-826b-536e16df1034")
+		)
+		(pad "2" thru_hole circle
+			(at 5 0)
+			(size 3 3)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "66f3eeeb-8569-4bba-8dde-1836c10e88f4")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
 		(layer "F.Cu")
 		(uuid "7b7ee225-8581-4ead-b097-75d5748e68f8")
