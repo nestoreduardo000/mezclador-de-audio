@@ -1328,6 +1328,172 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:Jumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 2.794 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Open"
+				(at 0 -2.286 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, open"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_0_1"
+				(arc
+					(start -1.524 1.27)
+					(mid 0 1.778)
+					(end 1.524 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -1727,6 +1893,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 71.12) (xy 119.38 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c1e80d6-ebe0-4ba1-97df-5553d62ab74a")
+	)
+	(wire
+		(pts
 			(xy 190.5 80.01) (xy 194.31 80.01)
 		)
 		(stroke
@@ -1737,7 +1913,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 82.55) (xy 125.73 82.55)
+			(xy 116.84 82.55) (xy 132.08 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1807,7 +1983,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 82.55) (xy 142.24 82.55)
+			(xy 139.7 82.55) (xy 142.24 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1937,16 +2113,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 71.12) (xy 125.73 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccec4357-bbca-4cfb-be45-dfa4cf81e63e")
-	)
-	(wire
-		(pts
 			(xy 86.36 86.36) (xy 86.36 90.17)
 		)
 		(stroke
@@ -1967,7 +2133,17 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 71.12) (xy 142.24 71.12)
+			(xy 129.54 71.12) (xy 132.08 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2d1d417-b25e-42cd-b55e-ea9eb3f77396")
+	)
+	(wire
+		(pts
+			(xy 139.7 71.12) (xy 142.24 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2457,7 +2633,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_US")
-		(at 129.54 71.12 270)
+		(at 135.89 71.12 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2468,7 +2644,7 @@
 		(fields_autoplaced yes)
 		(uuid "234faebf-d7ef-4db4-b72a-2e06f67dd88a")
 		(property "Reference" "C1"
-			(at 130.175 63.5 90)
+			(at 136.525 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2478,7 +2654,7 @@
 			)
 		)
 		(property "Value" "C_Polarized_US"
-			(at 130.175 66.04 90)
+			(at 136.525 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2488,7 +2664,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
-			(at 129.54 71.12 0)
+			(at 135.89 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2499,7 +2675,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 71.12 0)
+			(at 135.89 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2510,7 +2686,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, US symbol"
-			(at 129.54 71.12 0)
+			(at 135.89 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2706,6 +2882,86 @@
 			(project "mezclador doble canal"
 				(path "/1fd6db7d-bb33-43be-9c70-fde303eb7f84"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 124.46 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46c735bf-2856-4716-be9d-4ba60362f195")
+		(property "Reference" "JP1"
+			(at 124.46 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Open"
+			(at 124.46 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "personal:Jumper_Wire_10mm"
+			(at 124.46 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 124.46 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "503acf5e-7c33-475e-a702-7ca153e96ca6")
+		)
+		(pin "2"
+			(uuid "8e60fe78-1936-4b1e-8181-0e99e0a92115")
+		)
+		(instances
+			(project "mezclador doble canal"
+				(path "/1fd6db7d-bb33-43be-9c70-fde303eb7f84"
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -3771,7 +4027,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_US")
-		(at 129.54 82.55 270)
+		(at 135.89 82.55 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3782,7 +4038,7 @@
 		(fields_autoplaced yes)
 		(uuid "f66682d8-fb8b-4e28-92d8-f977e8c27eb7")
 		(property "Reference" "C2"
-			(at 130.175 74.93 90)
+			(at 136.525 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3792,7 +4048,7 @@
 			)
 		)
 		(property "Value" "C_Polarized_US"
-			(at 130.175 77.47 90)
+			(at 136.525 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3802,7 +4058,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
-			(at 129.54 82.55 0)
+			(at 135.89 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3813,7 +4069,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 82.55 0)
+			(at 135.89 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3824,7 +4080,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, US symbol"
-			(at 129.54 82.55 0)
+			(at 135.89 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
