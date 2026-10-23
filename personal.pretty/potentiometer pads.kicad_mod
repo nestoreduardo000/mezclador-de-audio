@@ -3,11 +3,11 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(property "Reference" "REF**"
-		(at 0 -0.5 0)
+	(property "Reference" "."
+		(at 0 -2 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "d7489444-9363-4424-8303-44329b0d8922")
+		(uuid "e315ba49-e596-4e4c-b095-0b13236e9ee2")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "68a21586-2e6d-4e4a-b783-f8061909bc80")
+		(uuid "27ee7b80-3eaa-4f71-92cd-1d74cfb57d9b")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2a0bd5db-4db7-47fe-93b3-803b79ca8ddc")
+		(uuid "7e60fa77-9cd7-4ea6-a06a-c4a7bc499c3a")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ea3af2c6-fa73-4074-8658-c7840eb7f796")
+		(uuid "1f87d6db-de84-4995-9917-9f8bb33c150b")
 		(effects
 			(font
 				(size 1 1)
@@ -59,7 +59,7 @@
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "B.Cu")
-		(uuid "724891fb-f4d9-479d-b05e-cdbfdce92d35")
+		(uuid "51fc2f38-7d7d-4302-9b42-f67b3670719d")
 		(effects
 			(font
 				(size 1 1)
@@ -69,30 +69,30 @@
 	)
 	(pad "1" thru_hole roundrect
 		(at -2.5 0)
-		(size 1.27 1.27)
-		(drill 0.8)
+		(size 2 2)
+		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.15)
-		(uuid "abc0ba0c-7c0d-43cc-9298-863f8ef80edb")
+		(uuid "7ad9cac7-7350-4194-97a5-268279ee7902")
 	)
 	(pad "2" thru_hole roundrect
 		(at 0 0)
-		(size 1.27 1.27)
-		(drill 0.8)
+		(size 2 2)
+		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.15)
-		(uuid "99177042-5093-4e36-adc1-75b702960b3a")
+		(uuid "1870b394-18a2-4654-9045-e5cbb288a953")
 	)
 	(pad "3" thru_hole roundrect
 		(at 2.5 0)
-		(size 1.27 1.27)
-		(drill 0.8)
+		(size 2 2)
+		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.15)
-		(uuid "d32208d9-c529-44c4-bbba-baf44f48c981")
+		(uuid "2e5ccbed-d390-407d-b6bd-566360229a2a")
 	)
 	(embedded_fonts no)
 )

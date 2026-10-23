@@ -1534,7 +1534,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:Jumper_2_Open"
+		(symbol "Jumper:Jumper_2_Bridged"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1548,7 +1548,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "JP"
-				(at 0 2.794 0)
+				(at 0 1.905 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1557,8 +1557,8 @@
 					)
 				)
 			)
-			(property "Value" "Jumper_2_Open"
-				(at 0 -2.286 0)
+			(property "Value" "Jumper_2_Bridged"
+				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1579,7 +1579,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 0 0)
+				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1589,8 +1589,8 @@
 					)
 				)
 			)
-			(property "Description" "Jumper, 2-pole, open"
-				(at 0 0 0)
+			(property "Description" "Jumper, 2-pole, closed/bridged"
+				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1622,7 +1622,7 @@
 					)
 				)
 			)
-			(symbol "Jumper_2_Open_0_0"
+			(symbol "Jumper_2_Bridged_0_0"
 				(circle
 					(center -2.032 0)
 					(radius 0.508)
@@ -1646,11 +1646,11 @@
 					)
 				)
 			)
-			(symbol "Jumper_2_Open_0_1"
+			(symbol "Jumper_2_Bridged_0_1"
 				(arc
-					(start -1.524 1.27)
-					(mid 0 1.778)
-					(end 1.524 1.27)
+					(start -1.524 0.254)
+					(mid 0 0.762)
+					(end 1.524 0.254)
 					(stroke
 						(width 0)
 						(type default)
@@ -1660,7 +1660,7 @@
 					)
 				)
 			)
-			(symbol "Jumper_2_Open_1_1"
+			(symbol "Jumper_2_Bridged_1_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -2331,7 +2331,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 40.64) (xy 148.59 40.64)
+			(xy 146.05 40.64) (xy 161.29 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2411,16 +2411,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 27.94) (xy 119.38 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b793384-6d87-47e5-84e6-88d013311e3a")
-	)
-	(wire
-		(pts
 			(xy 224.79 99.06) (xy 222.25 99.06)
 		)
 		(stroke
@@ -2428,6 +2418,16 @@
 			(type default)
 		)
 		(uuid "5cd4660b-94e2-42db-b07f-ac02de8bd794")
+	)
+	(wire
+		(pts
+			(xy 119.38 27.94) (xy 123.19 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d85488e-7ba1-45ac-a49f-49f4cada3ebe")
 	)
 	(wire
 		(pts
@@ -2558,6 +2558,16 @@
 			(type default)
 		)
 		(uuid "8fb57c69-45ef-427d-bc9c-f3f04a00bbcb")
+	)
+	(wire
+		(pts
+			(xy 133.35 27.94) (xy 137.16 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "907e6f38-48a0-41db-95b6-58aea5ae8f04")
 	)
 	(wire
 		(pts
@@ -2818,16 +2828,6 @@
 			(type default)
 		)
 		(uuid "cf1f15a9-172f-4f4c-9874-1166fd90e052")
-	)
-	(wire
-		(pts
-			(xy 158.75 40.64) (xy 161.29 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2d1d417-b25e-42cd-b55e-ea9eb3f77396")
 	)
 	(wire
 		(pts
@@ -3893,86 +3893,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Open")
-		(at 153.67 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "46c735bf-2856-4716-be9d-4ba60362f195")
-		(property "Reference" "JP1"
-			(at 153.67 34.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Jumper_2_Open"
-			(at 153.67 36.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "personal:Jumper_Wire_10mm"
-			(at 153.67 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 153.67 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, open"
-			(at 153.67 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "503acf5e-7c33-475e-a702-7ca153e96ca6")
-		)
-		(pin "2"
-			(uuid "8e60fe78-1936-4b1e-8181-0e99e0a92115")
-		)
-		(instances
-			(project "mezclador doble canal"
-				(path "/1fd6db7d-bb33-43be-9c70-fde303eb7f84"
-					(reference "JP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_Coaxial")
 		(at 142.24 60.96 270)
 		(unit 1)
@@ -4006,7 +3926,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector:JWT_A3963_1x02_P3.96mm_Vertical"
+		(property "Footprint" "personal:double wire"
 			(at 142.24 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -4350,7 +4270,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+		(property "Footprint" "personal:potentiometer pads"
 			(at 142.24 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -4908,7 +4828,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector:JWT_A3963_1x02_P3.96mm_Vertical"
+		(property "Footprint" "personal:double wire"
 			(at 260.35 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -4990,7 +4910,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector:JWT_A3963_1x02_P3.96mm_Vertical"
+		(property "Footprint" "personal:double wire"
 			(at 137.16 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -5440,6 +5360,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 128.27 27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3fb8c00-80f6-4607-bd8a-332b0b3a9ed7")
+		(property "Reference" "JP1"
+			(at 128.27 22.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Bridged"
+			(at 128.27 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "personal:Jumper_Wire_10mm"
+			(at 128.27 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 128.27 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ae07f98e-d4a1-4e70-ba38-5a13c4abbbc9")
+		)
+		(pin "1"
+			(uuid "8762e7eb-f243-4a5e-9c2d-331bc8baa832")
+		)
+		(instances
+			(project "mezclador doble canal"
+				(path "/1fd6db7d-bb33-43be-9c70-fde303eb7f84"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_Coaxial")
 		(at 227.33 49.53 0)
 		(unit 1)
@@ -5473,7 +5473,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector:JWT_A3963_1x02_P3.96mm_Vertical"
+		(property "Footprint" "personal:double wire"
 			(at 227.33 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -5555,7 +5555,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector:JWT_A3963_1x02_P3.96mm_Vertical"
+		(property "Footprint" "personal:double wire"
 			(at 137.16 34.29 0)
 			(hide yes)
 			(show_name no)

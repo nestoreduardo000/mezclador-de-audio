@@ -1,13 +1,13 @@
-(footprint "Sin título"
+(footprint "double wire"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(property "Reference" "REF**"
+	(property "Reference" "."
 		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "c85d715b-23b1-426f-943f-8662594bf2d7")
+		(uuid "8edaa2bb-8c6e-448e-bf49-c0057a25ac6f")
 		(effects
 			(font
 				(size 1 1)
@@ -15,11 +15,11 @@
 			)
 		)
 	)
-	(property "Value" "Potentiometer"
+	(property "Value" "Double wire"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "12f51476-7601-4a27-b850-e0b1fb08a465")
+		(uuid "9521e515-9d55-493c-b01d-41eb39f31b4e")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0b3800a2-f4aa-44b6-b794-d6d057e6ea8f")
+		(uuid "4a2bc1e2-5ee4-47f5-a23b-ddc96ab30628")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "6dd80bcf-4bb8-45de-bb93-31996cf5b9e3")
+		(uuid "4429bdb8-c0f5-40dd-8af0-3ed194708715")
 		(effects
 			(font
 				(size 1 1)
@@ -58,8 +58,8 @@
 	(fp_text user "."
 		(at 0 2.5 0)
 		(unlocked yes)
-		(layer "B.Cu")
-		(uuid "724891fb-f4d9-479d-b05e-cdbfdce92d35")
+		(layer "F.Fab")
+		(uuid "98370f50-da80-4618-a749-7a1d6e584cdb")
 		(effects
 			(font
 				(size 1 1)
@@ -68,31 +68,22 @@
 		)
 	)
 	(pad "1" thru_hole roundrect
-		(at -2.5 0)
-		(size 1.27 1.27)
-		(drill 0.8)
+		(at -2 0)
+		(size 2 2)
+		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.15)
-		(uuid "abc0ba0c-7c0d-43cc-9298-863f8ef80edb")
+		(uuid "091a1075-d958-42a9-a6d8-a05e8e3f4e65")
 	)
 	(pad "2" thru_hole roundrect
-		(at 0 0)
-		(size 1.27 1.27)
-		(drill 0.8)
+		(at 2 0)
+		(size 2 2)
+		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.15)
-		(uuid "99177042-5093-4e36-adc1-75b702960b3a")
-	)
-	(pad "3" thru_hole roundrect
-		(at 2.5 0)
-		(size 1.27 1.27)
-		(drill 0.8)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(roundrect_rratio 0.15)
-		(uuid "d32208d9-c529-44c4-bbba-baf44f48c981")
+		(uuid "d49795af-ce5a-4838-906e-f77c16813fd0")
 	)
 	(embedded_fonts no)
 )
