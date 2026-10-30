@@ -2414,12 +2414,6 @@
 		(uuid "07056d4f-4fb1-47f1-bd54-2b6a1d51b7e4")
 	)
 	(junction
-		(at 101.6 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "08d34589-ccf1-4067-9d2f-6314d2bc1522")
-	)
-	(junction
 		(at 119.38 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2610,6 +2604,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2f04485-9e19-4517-9cbd-a76bac056f44")
+	)
+	(junction
+		(at 154.94 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d39f866b-a6fb-4324-b363-d81aafdaaf1e")
 	)
 	(junction
 		(at 236.22 27.94)
@@ -2973,16 +2973,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 40.64) (xy 161.29 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c1e80d6-ebe0-4ba1-97df-5553d62ab74a")
-	)
-	(wire
-		(pts
 			(xy 213.36 49.53) (xy 217.17 49.53)
 		)
 		(stroke
@@ -3043,6 +3033,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 40.64) (xy 154.94 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "548afea6-bd7b-44b4-bda6-6d4f014cf121")
+	)
+	(wire
+		(pts
 			(xy 82.55 27.94) (xy 76.2 27.94)
 		)
 		(stroke
@@ -3053,7 +3053,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 101.6) (xy 161.29 101.6)
+			(xy 147.32 101.6) (xy 154.94 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3483,6 +3483,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 101.6) (xy 161.29 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b357a6f4-1bb6-4917-b7af-5757536bd5a5")
+	)
+	(wire
+		(pts
 			(xy 236.22 99.06) (xy 236.22 85.09)
 		)
 		(stroke
@@ -3633,16 +3643,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 34.29) (xy 101.6 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd7bb391-b117-405e-9819-f6b4b6689597")
-	)
-	(wire
-		(pts
 			(xy 208.28 109.22) (xy 208.28 111.76)
 		)
 		(stroke
@@ -3683,16 +3683,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 34.29) (xy 142.24 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d472aedd-9b3a-4b3d-bb10-f8c699f65fa8")
-	)
-	(wire
-		(pts
 			(xy 76.2 90.17) (xy 82.55 90.17)
 		)
 		(stroke
@@ -3723,6 +3713,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 40.64) (xy 161.29 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9f31af0-a644-4bbe-a002-5244d35a24a6")
+	)
+	(wire
+		(pts
 			(xy 26.67 90.17) (xy 76.2 90.17)
 		)
 		(stroke
@@ -3730,16 +3730,6 @@
 			(type default)
 		)
 		(uuid "dde420ac-5271-4b00-a719-3da540c668b5")
-	)
-	(wire
-		(pts
-			(xy 101.6 34.29) (xy 142.24 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de830680-aa79-46c4-9e59-df9c2b93ccbc")
 	)
 	(wire
 		(pts
@@ -5577,125 +5567,6 @@
 			(project "mezclador doble canal"
 				(path "/1fd6db7d-bb33-43be-9c70-fde303eb7f84"
 					(reference "RV5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Potentiometer")
-		(at 142.24 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "80f27b77-ae48-4460-ab8e-59ae482ce45d")
-		(property "Reference" "RV1"
-			(at 139.7 39.3699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_Potentiometer"
-			(at 139.7 41.9099 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "personal:potentiometer pads"
-			(at 142.24 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Potentiometer"
-			(at 142.24 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "R"
-			(at 142.24 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "POT"
-			(at 142.24 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
-			(at 142.24 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c0259f06-69e6-46e4-b3b8-d4a862156278")
-		)
-		(pin "1"
-			(uuid "a5d741a4-7704-4435-a5fd-7fb734dd9fab")
-		)
-		(pin "3"
-			(uuid "fa2ea099-6c4a-453f-a3bb-a91459a94fe5")
-		)
-		(instances
-			(project "mezclador doble canal"
-				(path "/1fd6db7d-bb33-43be-9c70-fde303eb7f84"
-					(reference "RV1")
 					(unit 1)
 				)
 			)
