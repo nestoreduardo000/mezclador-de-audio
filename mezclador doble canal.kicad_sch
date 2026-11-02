@@ -1631,6 +1631,171 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Microphone"
+			(pin_names
+				(offset 0.0254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "MK"
+				(at -3.81 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "Microphone"
+				(at -3.81 -0.635 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 2.54 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 2.54 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Microphone"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "microphone"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Microphone_0_1"
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 3.81) (xy 0.762 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 4.064) (xy 0.508 3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Microphone_1_1"
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -2576,12 +2741,6 @@
 		(uuid "b518e4dc-4924-4dfb-88d4-bad49dfd7c45")
 	)
 	(junction
-		(at 38.1 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b66824d5-f681-494d-a0f4-e2a06a6b98c8")
-	)
-	(junction
 		(at 142.24 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2640,6 +2799,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f72d926a-48f7-42dc-8a5b-e644b599a16c")
+	)
+	(junction
+		(at 38.1 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa199fd4-2207-4432-8a77-3bf945368512")
 	)
 	(wire
 		(pts
@@ -2953,6 +3118,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 90.17) (xy 38.1 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35698f37-f331-4361-b9b5-70ac342dbaee")
+	)
+	(wire
+		(pts
 			(xy 236.22 121.92) (xy 227.33 121.92)
 		)
 		(stroke
@@ -2990,6 +3165,26 @@
 			(type default)
 		)
 		(uuid "43ae1277-737a-48f4-b844-305f4ccedc9e")
+	)
+	(wire
+		(pts
+			(xy 38.1 90.17) (xy 76.2 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48915b5c-15e6-4857-9d4c-640d5d88eccf")
+	)
+	(wire
+		(pts
+			(xy 43.18 72.39) (xy 38.1 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a8d6229-902a-427e-be02-0a03521ff653")
 	)
 	(wire
 		(pts
@@ -3273,6 +3468,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 72.39) (xy 38.1 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97228be5-6ac0-4bbf-a1dd-b97dcbf32e5e")
+	)
+	(wire
+		(pts
 			(xy 119.38 69.85) (xy 184.15 69.85)
 		)
 		(stroke
@@ -3330,16 +3535,6 @@
 			(type default)
 		)
 		(uuid "a3c23a83-5ab6-45ee-a2ba-2d236ba0fa49")
-	)
-	(wire
-		(pts
-			(xy 38.1 90.17) (xy 38.1 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a49d4255-82f8-469b-bfbd-9c952b1a65bf")
 	)
 	(wire
 		(pts
@@ -3453,16 +3648,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 67.31) (xy 38.1 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b19e511a-0c68-4c1c-a07b-2b47aa6a076e")
-	)
-	(wire
-		(pts
 			(xy 180.34 90.17) (xy 180.34 101.6)
 		)
 		(stroke
@@ -3510,16 +3695,6 @@
 			(type default)
 		)
 		(uuid "b44b39ec-7135-414f-b7bc-afa176d6fd23")
-	)
-	(wire
-		(pts
-			(xy 38.1 67.31) (xy 48.26 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6100582-5f78-4db6-ace0-612a22a612bc")
 	)
 	(wire
 		(pts
@@ -3723,7 +3898,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 90.17) (xy 76.2 90.17)
+			(xy 26.67 90.17) (xy 38.1 90.17)
 		)
 		(stroke
 			(width 0)
@@ -4075,89 +4250,6 @@
 			(project "mezclador doble canal"
 				(path "/1fd6db7d-bb33-43be-9c70-fde303eb7f84"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_Coaxial")
-		(at 48.26 72.39 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "12de116f-17e8-4e8c-8a81-f22c7b1ca15a")
-		(property "Reference" "J8"
-			(at 44.45 70.8267 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_Coaxial"
-			(at 44.45 73.3667 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "personal:double wire"
-			(at 48.26 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 48.26 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4d0ff513-bca0-4b3d-9b10-565b5cf9d9d0")
-		)
-		(pin "1"
-			(uuid "6a184aec-e37a-4431-8fbd-1201156e3334")
-		)
-		(instances
-			(project "mezclador doble canal"
-				(path "/1fd6db7d-bb33-43be-9c70-fde303eb7f84"
-					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -4859,6 +4951,86 @@
 			(project "mezclador doble canal"
 				(path "/1fd6db7d-bb33-43be-9c70-fde303eb7f84"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Microphone")
+		(at 48.26 72.39 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41ea3388-e2ab-4741-98c2-e52fd4d7b24d")
+		(property "Reference" "MK1"
+			(at 47.5615 64.77 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Microphone"
+			(at 47.5615 67.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "personal:double wire"
+			(at 45.72 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Microphone"
+			(at 48.26 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "47bc263c-ecb7-4a54-bed7-ff5fa2d784aa")
+		)
+		(pin "2"
+			(uuid "50632f25-c637-4b0f-b5d1-3c56893af400")
+		)
+		(instances
+			(project "mezclador doble canal"
+				(path "/1fd6db7d-bb33-43be-9c70-fde303eb7f84"
+					(reference "MK1")
 					(unit 1)
 				)
 			)
@@ -7466,10 +7638,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fdcb40df-eb62-4b07-9d39-b75437a27a62")
 		(property "Reference" "C1"
-			(at 57.785 64.77 90)
+			(at 57.15 68.834 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
